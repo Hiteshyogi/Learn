@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>background-position</title>
+ <link rel="shortcut icon" href="logo1.jfif" type="image/x-icon">
+ <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+ .main{
+    width: 350px;
+    height: 350px;
+    border: 2px solid red;
+    margin: 20px auto;
+    position: relative;
+    /* overflow: hidden; */
+ }
+.main img{
+    width: 100%;
+    height: 100%;
+
+
+
+ }
+ .content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color:rgb(0, 0, 0);
+    box-shadow: 0px 4px 4px 0px gray;
+    z-index: -1;
+    transition: 1s;
+
+ }
+ .main:hover .content{
+    top: 100%;
+   left: 100%;
+ }
+ 
+ 
+ </style>
+</head>
+<body>
+    <div class="main">
+        <img src="https://picsum.photos/200/300?random=1">
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quisquam deserunt molestiae rem, quas et aliquam minus quibusdam sapiente fugit consequuntur voluptatibus perspiciatis, sint, reiciendis vel mollitia cum quidem nulla! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus quibusdam molestias iure atque fugit doloremque, iste asperiores placeat at ullam, est facere eligendi sunt sint autem porro voluptatum culpa voluptate!
+        </div>
+       </div>
+</body>
+</html>

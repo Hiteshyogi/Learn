@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+    <style>
+        .main{
+            width: 1000px;
+            height: 500px;
+            border: 2px solid red;
+            margin: 20px auto;
+            position: relative;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            animation-name: demo;
+            animation-duration: 2s;
+            animation-timing-function: steps(5);
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+           
+
+        }
+       @keyframes demo{
+        from{
+            top: 0px;
+            left: 0px;
+        }
+        to{  top: 0px;
+            left: 800px;
+        }
+       }
+       
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>

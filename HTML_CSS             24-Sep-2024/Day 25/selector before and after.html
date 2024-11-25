@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Document</title>
+  <style>
+    .main{
+      width: 400px;
+      height: 30px;
+      border: 2px solid red;
+      margin: 100px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .main::before{
+      content: "READ MORE";
+      margin-right: 10px;
+      color: green;
+      font-weight: 700;
+    }
+    .main::after{
+      content: "ABOUT US";
+      margin-left: 10px;
+      color:hotpink;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    WsCube Tech
+  </div>
+  
+</body>
+</html>

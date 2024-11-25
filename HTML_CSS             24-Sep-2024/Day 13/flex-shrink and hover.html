@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>flex-shrink and hover</title>
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    height: 300px;
+     border: 2px solid red; 
+    display: flex;
+    margin: 20px auto;
+   
+ 
+}
+.item {
+    width: 204px;
+    height: 300px;
+    border: 2px solid green;
+}
+.item:hover{
+    flex-shrink: 0;
+    
+ 
+    
+    
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="https://picsum.photos/200/300?random=1" height="100%" width="100%">
+        </div>
+         <div class="item">
+            <img src="https://picsum.photos/200/300?random=2" height="100%" width="100%">
+        </div>
+         <div class="item">
+            <img src="https://picsum.photos/200/300?random=3" height="100%" width="100%">
+        </div>
+         <div class="item">
+            <img src="https://picsum.photos/200/300?random=4" height="100%" width="100%">
+        </div>
+         <div class="item">
+            <img src="https://picsum.photos/200/300?random=5" height="100%" width="100%">
+        </div>
+         <div class="item">
+            <img src="https://picsum.photos/200/300?random=6" height="100%" width="100%">
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+Box-Shadow : H-offset (left to right) V-offfset (top to bottom) blur, Spread, Color;
+box-shadow: 10px 5px 20px 4px green inset;
+box under shadow use this (inset)

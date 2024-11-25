@@ -1,0 +1,4 @@
+1. Normal selector :
+2. Class selector : Multiple layout
+3. Id selector : Unique
+4. Tag name : h1, p, 

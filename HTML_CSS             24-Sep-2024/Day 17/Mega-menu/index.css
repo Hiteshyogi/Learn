@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color:#ffffff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:2px solid papayawhip;
+}
+.Myntra_home{
+    height: 45px;
+    margin-left: 2%;
+    /* width: 53px; */
+}
+.logo_container{
+    margin-left: 4%;
+}
+.action_bar{
+    margin-right: 4%;
+}
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+
+}
+.nav_bar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 28px 0;
+    border-bottom: 2px solid #ffffff;
+}
+.nav_bar a:hover{
+    border-bottom: 2px solid #f54e77;
+}
+.nav_bar a sup{
+    color: #ff3f6c;
+    /* font-weight: 600; */
+    font-size: 10px;
+}
+.search_bar{
+    height: 40px;
+    min-width: 350px;
+   width:30%;
+    display: flex;
+    align-items: center;
+}
+.search_icon{
+    box-sizing:content-box;
+    height: 20px;
+    padding: 10px;
+    color: #282c3f;
+    background: #f5f5f6;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+.search_input{
+    color: #696e79;
+    background: #f5f5f6;
+     flex-grow: 1;
+    /* width: 228px; */
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content:space-around;
+   
+   
+
+}
+.action_container{
+ display: flex;
+ flex-direction: column; 
+ align-items: center; 
+}
+
+.mega-menu{
+   width: 1100px;
+   height: 450px;
+   padding-top: 15px;
+   /* border: 2px solid red;   */
+   position: absolute;
+ 
+   top: 80px;
+   left:200px;
+   bottom: 300px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+   transition: 0.6s;
+   display: flex;
+   justify-content: space-around;
+   
+    opacity: 0;
+   visibility: hidden; 
+
+}
+.nav_bar{
+    position: relative;
+    
+} .nav_bar:hover .mega-menu{
+    top: 80px;
+    left: 0px;
+    opacity: 1;
+    visibility: visible; 
+}
+ .mega-menu p{
+    font-family: arial;
+    font-weight: 100;
+    font-size: 12px;
+    margin-bottom: 10px;
+ }
+ .mega-menu h4{
+    padding-bottom: 10px;
+    color: #ee5f73;
+    font-size: 12px;
+ }

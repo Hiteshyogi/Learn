@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    height: 600px;
+    border: 2px solid rgb(245, 2, 2);
+    margin: auto;
+    display: flex;
+    /* justify-content: (flex-star, flex-end, center, space-between,space-around,space-evenly)work in x-axis alingment */
+    justify-content: space-evenly; 
+    /*  align-items: (stretch,flex-star, flex-end, center, baseline,auto)work in{ y-axis(cross axis)} alingment */
+    align-items:center ;
+    flex-wrap: wrap;
+    border-radius: 20px;
+
+
+}
+.box{
+    width: 200px;
+      height: 200px;  
+    border: 2px solid rgb(5, 247, 37);
+    border-radius: 30px;
+
+}

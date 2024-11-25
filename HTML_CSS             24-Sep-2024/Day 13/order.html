@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>flex-order</title>
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    height: 300;
+     border: 2px solid red; 
+    display: flex;
+    margin: 20px auto;
+   
+ 
+}
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="box">1</div>
+       <div class="box">2</div>
+       <div style="order: -1;" class="box">3</div>
+       <div style="order: -2;" class="box">4</div>
+
+
+
+    </div>
+</body>
+</html>

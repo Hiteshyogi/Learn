@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Transform- Translate</title>
+    <style>
+        .main{
+            width: 800px;
+            height: 500px;
+            border: 2px solid red;
+            margin: auto;
+            display: flex;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid green;
+        }
+        .box:nth-child(2){
+            transform: translateX(105px);
+        }
+        .box:nth-child(1){
+            transform: translateY(154px);
+        }
+        .box:nth-child(3){
+            transform: translatez(154px);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+     <div class="box">1</div>
+     <div class="box">2</div>
+     <div class="box">3</div>
+    </div>
+    
+</body>
+</html>

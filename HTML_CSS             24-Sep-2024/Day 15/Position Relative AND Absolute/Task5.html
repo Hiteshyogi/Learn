@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Position : Task---4</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+   .container{
+    width:1200px;
+    height:600px;
+    border: 2px solid red;
+    margin: auto;
+   position: relative;
+   
+   }
+   .box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    transition: 3s;
+   }
+   .box:nth-child(1){
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+
+   }
+   .box:nth-child(2){
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.box:nth-child(3){
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.box:nth-child(4){
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+   .container:hover .box:nth-child(1){
+  
+   left: 1000px;
+   background-color: gold;
+   }
+    .container:hover .box:nth-child(2){
+  
+   right: 1000px;
+    background-color: brown;
+   }
+
+ .container:hover .box:nth-child(3){
+    left: 1000px;
+   
+    background-color: coral;
+  } 
+  .container:hover .box:nth-child(4){
+   right: 1000px;
+   
+ background-color: darkgreen;
+  }  
+</style>
+</head>
+<body>
+    <div class="container">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+  <a href="task1.html">TASK---1</a>
+  <a href="Task2.html">TASK---2</a>
+  <a href="Task3.html">TASK---3</a>
+  <a href="Task4.html">TASK---4</a>
+  <a href="Task5.html">TASK---5</a>
+  <a href="Task6.html">TASK---6</a>
+</body>
+</html>

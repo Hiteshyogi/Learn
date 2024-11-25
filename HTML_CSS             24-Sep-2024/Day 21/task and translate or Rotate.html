@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 350px;
+            height: 300px;
+            /* border: 2px solid red; */
+            margin: 100px auto;
+            display: flex;
+            position: relative;
+            box-shadow: 2px 2px 5px 2px rgb(243, 0, 0);
+        }
+        .front{
+            width: 350px;
+            height: 300px;
+            background-color: tomato;
+            transform: rotateY(0deg);
+            transition: 1s;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            backface-visibility: hidden;
+        }
+        .back{
+            width: 350px;
+            height: 300px;
+            background-color: white;
+            color: blue;
+            padding: 15px;
+            transform: rotateY(180deg);
+            transition: 1s;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            backface-visibility: hidden;
+        }
+        .main:hover .back{
+            transform: rotateY(0deg);
+        }
+        .main:hover .front{
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="front">
+            <img width="100%" height="100%" src="https://picsum.photos/200/300?random=1">
+        </div>
+        <div class="back">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore, itaque magni eligendi repellat ipsam vero! Qui alias et ipsam eaque, illo voluptatum hic magnam, libero modi perspiciatis, nam expedita quasi laudantium autem? Dolorem, id totam sit ipsa laboriosam consectetur eius aspernatur commodi velit dolores. Eos dolor distinctio accusantium consectetur.
+        </div>
+
+    </div>
+</body>
+</html>

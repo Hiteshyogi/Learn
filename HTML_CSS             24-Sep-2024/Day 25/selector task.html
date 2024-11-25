@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>task</title>
+  <style>
+    .main{
+      width: 400px;
+      height: 100px;
+      /* border: 2px solid green; */
+      margin: 100px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 35px;
+      background-color: red;
+      position: relative;
+    }
+    .main::before{
+      content: "";
+      width: 30px;
+      height: 30px;
+      background-color: rgb(255, 0, 0);
+      position: absolute;
+      transform: rotateZ(45deg);
+      bottom: 85px;
+    }
+    .main::after{
+      content: "";
+      width: 30px;
+      height: 30px;
+      background-color: red;
+      position: absolute;
+      transform: rotateZ(45deg);
+      top: 85px;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+   WsCube Tech
+  </div>
+  
+</body>
+</html>
